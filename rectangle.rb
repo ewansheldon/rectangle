@@ -17,8 +17,6 @@ def print_rectangle(w,h)
   string << top(w)
 end
 
-
-
 w = ARGV[0].to_i
 h = ARGV[1].to_i
 print_rectangle(w,h)
